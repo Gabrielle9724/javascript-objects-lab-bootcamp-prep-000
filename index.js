@@ -8,3 +8,7 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
   obj.prop2 = 2
   return obj
 }
+
+function deleteFromObjectByKey(obj, key){
+  delete obj.key
+}
